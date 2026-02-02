@@ -1,7 +1,4 @@
 // Skills Section Logo's
-
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
@@ -53,8 +50,6 @@ export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
