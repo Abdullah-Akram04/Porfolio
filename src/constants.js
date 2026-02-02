@@ -17,7 +17,6 @@ import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
