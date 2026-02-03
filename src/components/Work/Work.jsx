@@ -1,3 +1,6 @@
+
+// work section showcasing projects with modal details
+
 import React, { useState } from "react";
 import { projects } from "../../constants";
 
