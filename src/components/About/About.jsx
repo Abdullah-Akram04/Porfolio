@@ -41,7 +41,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a cybersecurity professional grounded in computer science, focused on securing digital environments. My approach involves a meticulous analysis of network patterns and proactive monitoring to identify and neutralize threats. I am committed to maintaining operational resilience and protecting sensitive information, leveraging my expertise in incident response, vulnerability assessment, and threat intelligence to fortify systems against evolving risks.
+            Drawing upon a foundation in computer science, I am a dedicated cybersecurity professional focused on fortifying digital infrastructures. My strengths lie in the meticulous analysis of network patterns and system vulnerabilities, enabling me to proactively identify threats, swiftly respond to incidents, and implement strategic measures that ensure the continuous protection of sensitive data and operational integrity.
           </p>
           {/* Resume Button */}
           <a
