@@ -1,3 +1,6 @@
+
+// Footer.jsx
+
 import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGit, FaGithub } from "react-icons/fa";
 
