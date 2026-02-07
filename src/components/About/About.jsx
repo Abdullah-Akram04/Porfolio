@@ -1,6 +1,3 @@
-// About.jsx - This component renders the "About Me" section of the portfolio website, including a greeting, name, typing effect for skills, a brief description, and a profile image with a tilt effect.
-
-
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
