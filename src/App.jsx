@@ -1,3 +1,4 @@
+// App.jsx - Main Application Component for Portfolio Website
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
