@@ -41,8 +41,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Drawing upon a foundation in computer science, I am a dedicated cybersecurity professional focused on fortifying digital infrastructures. My strengths lie in the meticulous analysis of network patterns and system vulnerabilities, enabling me to proactively identify threats, swiftly respond to incidents, and implement strategic measures that ensure the continuous protection of sensitive data and operational integrity.
-          </p>
+Drawing on a foundation in computer science, I am a dedicated cybersecurity professional with a focus on governance, risk, and compliance (GRC) alongside continuous security monitoring. My strengths include analyzing security events and controls, assessing organizational risk and compliance gaps, supporting incident investigations, and implementing security and governance measures that protect sensitive data and ensure regulatory and operational integrity.          </p>
           {/* Resume Button */}
           <a
             href=""
