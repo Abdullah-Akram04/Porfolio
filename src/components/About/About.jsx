@@ -1,3 +1,5 @@
+
+// About.jsx - About Section of Portfolio Website
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
