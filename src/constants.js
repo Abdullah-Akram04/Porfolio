@@ -155,8 +155,8 @@ export const SkillsInfo = [
       img: glaLogo,
       school: "COMSATS University, Islamabad, Vehari Campus",
       date: "Feb 2023 - June 2027",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      grade: "2.9 CGPA",
+      desc: "I have completed my Bachelor's degree in Computer Applications from COMSATS University, Islamabad, Vehari Campus. During my time at COMSATS, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development,Computers Networks,Information Security and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at COMSATS University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor of Science - BSC (Computer Science)",
     },
     {
