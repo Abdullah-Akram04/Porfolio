@@ -157,7 +157,7 @@ export const SkillsInfo = [
       date: "Sept 2022 - July 2024",
       grade: "7.81 CGPA",
       desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      degree: "Bachelor of Science - BSC (Computer Science)",
     },
     {
       id: 1,
@@ -166,7 +166,7 @@ export const SkillsInfo = [
       date: "Sept 2018 - Aug 2021",
       grade: "73.2%",
       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      degree: "",
     },
     {
       id: 2,
