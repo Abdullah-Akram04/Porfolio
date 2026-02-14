@@ -165,8 +165,7 @@ export const SkillsInfo = [
       school: "Punjab group of colleges",
       date: "Sept 2020 - Aug 2022",
       grade: "70%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "FSC Pre-Engineering",
+      desc: "I have completed my intermediate education from Punjab Group of Colleges, under the BISE board, where I studied Physics, Chemistry, and Mathematics (PCM). During my time at Punjab Group of Colleges, I gained a strong foundation in these core subjects. I actively participated in various academic and extracurricular activities, which helped me develop critical thinking and problem-solving skills. My experience at Punjab Group of Colleges has been instrumental in preparing me for higher education and shaping my academic journey.",
     },
     {
       id: 2,
