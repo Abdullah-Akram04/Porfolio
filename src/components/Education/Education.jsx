@@ -37,14 +37,16 @@ const Education = () => {
             >
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
-                {/* School Logo/Image */}
-                <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
-                  <img
-                    src={edu.img}
-                    alt={edu.school}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                {/* School Logo/Image - Only show if image exists */}
+                {edu.img && (
+                  <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                    <img
+                      src={edu.img}
+                      alt={edu.school}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                )}
 
                 {/* Degree, School Name, and Date */}
                 <div className="flex flex-col justify-between">

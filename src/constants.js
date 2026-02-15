@@ -30,8 +30,6 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
@@ -152,7 +150,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
+      img: null,
       school: "COMSATS University, Islamabad, Vehari Campus",
       date: "Feb 2023 - June 2027",
       grade: "2.9 CGPA",
@@ -161,7 +159,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: bsaLogo,
+      img: null,
       school: "Punjab group of colleges",
       date: "Sept 2020 - Aug 2022",
       grade: "70%",
