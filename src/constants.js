@@ -258,4 +258,34 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
     },
+  ];
+
+  export const certifications = [
+    {
+      id: 0,
+      img: null,
+      title: "Full Stack Web Development",
+      organization: "Udemy",
+      date: "Jan 2024",
+      credentialId: "UC-XXXXXXXX",
+      desc: "Completed a comprehensive full-stack web development course covering HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and RESTful API development.",
+    },
+    {
+      id: 1,
+      img: null,
+      title: "React - The Complete Guide",
+      organization: "Udemy",
+      date: "March 2024",
+      credentialId: "UC-XXXXXXXX",
+      desc: "Mastered React.js including hooks, context API, Redux, routing, and building full-scale applications with modern React patterns.",
+    },
+    {
+      id: 2,
+      img: null,
+      title: "JavaScript Algorithms and Data Structures",
+      organization: "freeCodeCamp",
+      date: "May 2023",
+      credentialId: "FCC-XXXXXXXX",
+      desc: "Completed certification covering fundamental algorithms, data structures, and problem-solving techniques essential for software development.",
+    },
   ];  
