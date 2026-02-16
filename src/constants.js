@@ -265,10 +265,10 @@ export const SkillsInfo = [
       id: 0,
       img: null,
       title: "Google cybersecurity professional certificate",
-      organization: "Udemy",
+      organization: "Google",
       date: "Jan 2024",
       credentialId: "UC-XXXXXXXX",
-      desc: "Completed a comprehensive full-stack web development course covering HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and RESTful API development.",
+      desc: "Completed a comprehensive cybersecurity professional certificate course covering network security, threat analysis, and incident response.",
     },
     {
       id: 1,
