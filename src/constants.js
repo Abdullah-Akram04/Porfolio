@@ -264,7 +264,7 @@ export const SkillsInfo = [
     {
       id: 0,
       img: null,
-      title: "Full Stack Web Development",
+      title: "Google cybersecurity professional certificate",
       organization: "Udemy",
       date: "Jan 2024",
       credentialId: "UC-XXXXXXXX",
