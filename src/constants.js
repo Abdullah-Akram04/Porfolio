@@ -276,7 +276,7 @@ export const SkillsInfo = [
       title: "ISC2 Certified in Cybersecurity (CC)",
       organization: "ISC2",
       date: "Feb 2026",
-      credentialId: "UC-XXXXXXXX",
+      credentialId: "ad31edc6-0616-43fe-8784-bad65563ebf6",
       desc: "Mastered React.js including hooks, context API, Redux, routing, and building full-scale applications with modern React patterns.",
     },
     {
