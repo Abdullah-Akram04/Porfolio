@@ -273,7 +273,7 @@ export const SkillsInfo = [
     {
       id: 1,
       img: null,
-      title: "React - The Complete Guide",
+      title: "ISC2 Certified in Cybersecurity (CC)",
       organization: "Udemy",
       date: "March 2024",
       credentialId: "UC-XXXXXXXX",
