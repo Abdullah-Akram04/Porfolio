@@ -282,7 +282,7 @@ export const SkillsInfo = [
     {
       id: 2,
       img: null,
-      title: "JavaScript Algorithms and Data Structures",
+      title: "",
       organization: "freeCodeCamp",
       date: "May 2023",
       credentialId: "FCC-XXXXXXXX",
