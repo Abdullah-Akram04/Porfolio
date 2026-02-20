@@ -283,7 +283,7 @@ export const SkillsInfo = [
       id: 2,
       img: null,
       title: "",
-      organization: "freeCodeCamp",
+      organization: "",
       date: "May 2023",
       credentialId: "FCC-XXXXXXXX",
       desc: "Completed certification covering fundamental algorithms, data structures, and problem-solving techniques essential for software development.",
