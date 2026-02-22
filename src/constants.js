@@ -286,6 +286,6 @@ export const SkillsInfo = [
       organization: "",
       date: "",
       credentialId: "",
-      desc: "Completed certification covering fundamental algorithms, data structures, and problem-solving techniques essential for software development.",
+      desc: "",
     },
   ];  
