@@ -200,7 +200,7 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "",
       description:
         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
       image: npmLogo,
