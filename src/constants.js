@@ -277,6 +277,6 @@ export const SkillsInfo = [
       organization: "ISC2",
       date: "Feb 2026",
       credentialId: "ad31edc6-0616-43fe-8784-bad65563ebf6",
-      desc: "I  earned the ISC2 Certified in Cybersecurity (CC) certification, demonstrating my foundational knowledge and skills in cybersecurity principles and practices. This certification validates my understanding of key cybersecurity concepts, including risk management, network security, and incident response, showcasing my commitment to maintaining a secure digital environment.",
+      desc: "I have earned the ISC2 Certified in Cybersecurity (CC) certification, demonstrating my foundational knowledge and skills in cybersecurity principles and practices. This certification validates my understanding of key cybersecurity concepts, including risk management, network security, and incident response, showcasing my commitment to maintaining a secure digital environment.",
     },
   ];  
