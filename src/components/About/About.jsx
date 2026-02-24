@@ -1,4 +1,5 @@
 
+import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '/src/assets/profileImage.png';
