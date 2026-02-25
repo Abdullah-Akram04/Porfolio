@@ -36,7 +36,7 @@ const Certifications = () => {
               } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex items-start space-x-6">
                 {/* Certification Logo/Image - Only show if image exists */}
                 {cert.img && (
                   <div className="w-24 h-16 bg-white rounded-md overflow-hidden flex items-center justify-center p-2 flex-shrink-0">
