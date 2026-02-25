@@ -39,11 +39,11 @@ const Education = () => {
               <div className="flex items-center space-x-6">
                 {/* School Logo/Image - Only show if image exists */}
                 {edu.img && (
-                  <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                  <div className="w-16 h-16 bg-white rounded-md overflow-hidden flex items-center justify-center p-1">
                     <img
                       src={edu.img}
                       alt={edu.school}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 )}

@@ -30,7 +30,9 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import comsatsLogo from './assets/education_logo/comsats.png';
+import punjabCollegeLogo from './assets/education_logo/punjab.png';
+
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -154,7 +156,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: null,
+      img: comsatsLogo,
       school: "COMSATS University, Islamabad, Vehari Campus",
       date: "Feb 2023 - June 2027",
       grade: "2.9 CGPA",
@@ -163,11 +165,12 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: null,
-      school: "Punjab group of colleges",
+      img: punjabCollegeLogo,
+      school: "Punjab Group of Colleges",
       date: "Sept 2020 - Aug 2022",
       grade: "70%",
       desc: "I have completed my intermediate education from Punjab Group of Colleges, under the BISE board, where I studied Physics, Chemistry, and Mathematics (PCM). During my time at Punjab Group of Colleges, I gained a strong foundation in these core subjects. I actively participated in various academic and extracurricular activities, which helped me develop critical thinking and problem-solving skills. My experience at Punjab Group of Colleges has been instrumental in preparing me for higher education and shaping my academic journey.",
+      degree: "Intermediate - FSc (Pre-Engineering)",
     },
   ];
   
