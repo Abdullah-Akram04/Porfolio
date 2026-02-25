@@ -44,6 +44,7 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
 // Certifications Section Logo's
+import googleCertLogo from './assets/certifications_logo/Google.webp';
 import iscCertLogo from './assets/certifications_logo/ISC.avif';
 
 
@@ -266,7 +267,7 @@ export const SkillsInfo = [
   export const certifications = [
     {
       id: 0,
-      img: null,
+      img: googleCertLogo,
       title: "Google cybersecurity professional certificate",
       organization: "Google",
       date: "Dec 2025",
