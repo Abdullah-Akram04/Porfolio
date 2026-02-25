@@ -43,6 +43,9 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
+// Certifications Section Logo's
+import iscCertLogo from './assets/certifications_logo/ISC.avif';
+
 
 export const SkillsInfo = [
   {
@@ -272,7 +275,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: null,
+      img: iscCertLogo,
       title: "ISC2 Certified in Cybersecurity (CC)",
       organization: "ISC2",
       date: "Feb 2026",
