@@ -39,11 +39,11 @@ const Certifications = () => {
               <div className="flex items-center space-x-6">
                 {/* Certification Logo/Image - Only show if image exists */}
                 {cert.img && (
-                  <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                  <div className="w-24 h-16 bg-white rounded-md overflow-hidden flex items-center justify-center p-2 flex-shrink-0">
                     <img
                       src={cert.img}
                       alt={cert.organization}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 )}
