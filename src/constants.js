@@ -25,9 +25,6 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import comsatsLogo from './assets/education_logo/comsats.png';
@@ -100,7 +97,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
+      img: null,
       role: "Fullstack Developer",
       company: "Webverse Digital",
       date: "April 2024 - Present",
@@ -120,7 +117,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: agcLogo,
+      img: null,
       role: "Fullstack Engineer",
       company: "Agumentik Group of Companies",
       date: "July 2023 - March 2024",
@@ -137,7 +134,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: newtonschoolLogo,
+      img: null,
       role: "Frontend Intern",
       company: "Newton School",
       date: "September 2021 - August 2022",
