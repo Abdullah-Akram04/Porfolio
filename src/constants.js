@@ -119,7 +119,7 @@ export const SkillsInfo = [
         "Cybersecurity Tools (Wireshark, Metasploit)",
         "Programming/Scripting (Python, PowerShell)",
         "Cybersecurity Policies and Procedures",
-        "Cybersecurity Incident Handling and Response",
+        ,
       ],
     },
     {
