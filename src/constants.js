@@ -114,8 +114,6 @@ export const SkillsInfo = [
         "Security Awareness Training",
         "Penetration Testing",
         "Compliance and Regulations",
-        "Identity and Access Management",
-
       ],
     },
     {
