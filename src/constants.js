@@ -115,7 +115,7 @@ export const SkillsInfo = [
         "Penetration Testing",
         "Compliance and Regulations",
         "Identity and Access Management",
-        "Security Information and Event Management (SIEM)",
+
       ],
     },
     {
