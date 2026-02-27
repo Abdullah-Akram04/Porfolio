@@ -116,7 +116,6 @@ export const SkillsInfo = [
         "Compliance and Regulations",
         "Identity and Access Management",
         "Security Information and Event Management (SIEM)",
-        "Cybersecurity Tools (Wireshark, Metasploit)",
       ],
     },
     {
