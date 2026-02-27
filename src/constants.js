@@ -112,7 +112,6 @@ export const SkillsInfo = [
         "Risk Management",
         "Firewalls and IDS/IPS",
         "Security Awareness Training",
-        "Penetration Testing",
         "Compliance and Regulations",
       ],
     },
