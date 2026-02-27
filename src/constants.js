@@ -117,8 +117,6 @@ export const SkillsInfo = [
         "Identity and Access Management",
         "Security Information and Event Management (SIEM)",
         "Cybersecurity Tools (Wireshark, Metasploit)",
-        "Programming/Scripting (Python, PowerShell)",
-        
       ],
     },
     {
