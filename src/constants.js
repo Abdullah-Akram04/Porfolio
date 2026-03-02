@@ -203,7 +203,7 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "",
       description:
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
       image: taskremLogo,
