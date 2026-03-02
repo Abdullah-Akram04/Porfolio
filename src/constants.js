@@ -213,7 +213,7 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "",
       description:
         "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
       image: webverLogo,
