@@ -223,7 +223,7 @@ export const SkillsInfo = [
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "",
       description:
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
