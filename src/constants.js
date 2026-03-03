@@ -260,7 +260,7 @@ export const SkillsInfo = [
       title: "Google cybersecurity professional certificate",
       organization: "Google",
       date: "Dec 2025",
-      credentialId: "Audited",
+      credentialId: "M9PA86HW7V5K",
       desc: "Completed a comprehensive cybersecurity professional certificate course covering network security, threat analysis, and incident response. Gained practical skills in securing systems and protecting against cyber threats, demonstrating a strong commitment to cybersecurity best practices.",
     },
     {
