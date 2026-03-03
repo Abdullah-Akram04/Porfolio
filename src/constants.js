@@ -243,7 +243,7 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "",
       description:
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
       image: removebgLogo,
