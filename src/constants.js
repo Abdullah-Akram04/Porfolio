@@ -233,7 +233,7 @@ export const SkillsInfo = [
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
