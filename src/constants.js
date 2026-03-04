@@ -227,7 +227,7 @@ export const SkillsInfo = [
       description:
         "An ed-tech platform where users access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
-      tags: ["React JS", "Node.js", "Express", "Payment Integration"],
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
       github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
     },
