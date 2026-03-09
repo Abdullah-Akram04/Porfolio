@@ -177,7 +177,7 @@ export const SkillsInfo = [
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "CSS", "JavaScript"],
+      tags: ["React JS", "Node.js", "MongoDB", "CSS",],
       github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
     },
@@ -197,7 +197,7 @@ export const SkillsInfo = [
       description:
         "An efficient and NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
+      tags: ["React JS", "Node.js","Validation"],
       github: "https://github.com/codingmastr/cmtk-email-validator",
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
