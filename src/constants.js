@@ -1,14 +1,10 @@
 // Skills Section Logo's
-import reactjsLogo from './assets/tech_logo/reactjs.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 import javaLogo from './assets/tech_logo/java.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
@@ -45,13 +41,14 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 // Certifications Section Logo's
 import googleCertLogo from './assets/certifications_logo/Google.webp';
 import iscCertLogo from './assets/certifications_logo/ISC.avif';
+import forageCertLogo from './assets/certifications_logo/forage.jpg';
+import developersHubLogo from './assets/company_logo/company.jpeg';
 
 
 export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'GSAP', logo: gsapLogo },
@@ -62,10 +59,7 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
@@ -97,7 +91,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: null,
+      img: developersHubLogo,
       role: "CyberSecurity Intern",
       company: " DevelopersHub Corporation",
       date: "September 2021 - August 2022",
@@ -115,28 +109,7 @@ export const SkillsInfo = [
         "Compliance and Regulations",
       ],
     },
-    {
-      id: 1,
-      img: null,
-      role: "MERN STACK DEVELOPER",
-      company: "Fiverr",
-      date: "June 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    
-    
+
   ];
   
   export const education = [
@@ -177,7 +150,7 @@ export const SkillsInfo = [
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "CSS",],
+      tags: ["React JS", "CSS"],
       github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
     },
@@ -195,9 +168,9 @@ export const SkillsInfo = [
       id: 3,
       title: "",
       description:
-        "An efficient and NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "An efficient and NPM package for validating email addresses. Built using React.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
       image: npmLogo,
-      tags: ["React JS", "Node.js","Validation"],
+      tags: ["React JS", "Validation"],
       github: "https://github.com/codingmastr/cmtk-email-validator",
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
@@ -227,7 +200,7 @@ export const SkillsInfo = [
       description:
         "An ed-tech platform where users access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+      tags: ["React JS", "Payment Integration"],
       github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
     },
@@ -271,6 +244,15 @@ export const SkillsInfo = [
       date: "Feb 2026",
       credentialId: "ad31edc6-0616-43fe-8784-bad65563ebf6",
       desc: "I have earned the ISC2 Certified in Cybersecurity (CC) certification, demonstrating my foundational knowledge and skills in cybersecurity principles and practices. This certification validates my understanding of key cybersecurity concepts, including risk management, network security, and incident response, showcasing my commitment to maintaining a secure digital environment.",
+    },
+    {
+      id: 2,
+      img: forageCertLogo,
+      title: "Mastercard Cybersecurity Virtual Experience Program",
+      organization: "Forage",
+      date: "March 10, 2026",
+      credentialId: "snJLeZL8R5jyFNKBY",
+      desc: "Completed the Mastercard Cybersecurity Virtual Experience Program on Forage, where I worked through practical cybersecurity tasks including threat identification, security awareness, and incident response activities in a simulated business environment.",
     },
   ];  
 
