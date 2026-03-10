@@ -6,7 +6,6 @@ import materialuiLogo from './assets/tech_logo/materialui.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
-import javaLogo from './assets/tech_logo/java.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -67,7 +66,6 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
