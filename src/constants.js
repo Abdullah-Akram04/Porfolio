@@ -1,8 +1,6 @@
 // Skills Section Logo's
-import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
@@ -48,10 +46,8 @@ export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
     ],
   },
   {
