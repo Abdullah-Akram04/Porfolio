@@ -42,7 +42,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-Drawing on a foundation in computer science, I am a dedicated cybersecurity professional with a focus on governance, risk, and compliance alongside continuous security monitoring. My strengths include analyzing security events and controls, assessing organizational risk and compliance gaps, supporting incident investigations, and implementing security and governance measures that protect sensitive data and ensure regulatory and operational integrity.          </p>
+Computer Science undergraduate at COMSATS University Islamabad with a passion for securing digital infrastructure. I specialize in vulnerability assessment, network defense, and security operations — backed by industry-recognized certifications from Google and (ISC)².
+          </p>
           {/* Resume Button */}
           <a
             href=""
