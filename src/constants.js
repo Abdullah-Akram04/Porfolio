@@ -17,6 +17,9 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import cppLogo from './assets/tech_logo/cpp.svg';
+import bashLogo from './assets/tech_logo/bash.svg';
+import wiresharkLogo from './assets/tech_logo/wireshark.svg';
+import splunkLogo from './assets/tech_logo/splunk.svg';
 
 // Experience Section Logo's
 
@@ -67,11 +70,9 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'Bash', logo: bashLogo },
+      { name: 'Wireshark', logo: wiresharkLogo },
+      { name: 'Splunk', logo: splunkLogo },
     ],
   },
 ];
