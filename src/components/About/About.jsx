@@ -29,7 +29,7 @@ const About = () => {
                 'Cybersecurity Enthusiast',
                 'SOC Analyst',
                 'GRC Specialist',
-                'Threat Intelligence Specialist',
+                "Threat Intelligence Analyst",
               ]}
               speed={100}
               eraseSpeed={50}
