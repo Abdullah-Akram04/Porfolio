@@ -48,14 +48,6 @@ import developersHubLogo from './assets/company_logo/company.jpeg';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
-    skills: [],
-  },
-  {
-    title: 'Backend',
-    skills: [],
-  },
-  {
     title: 'Languages',
     skills: [
       { name: 'Python', logo: pythonLogo },
