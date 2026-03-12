@@ -26,10 +26,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Cybersecurity Analyst',
+                'Cybersecurity Enthusiast',
                 'SOC Analyst',
-                'Security Engineer',
-                'AI Security Analyst',
+                'GRC Specialist',
+                'Threat Intelligence Specialist',
               ]}
               speed={100}
               eraseSpeed={50}
