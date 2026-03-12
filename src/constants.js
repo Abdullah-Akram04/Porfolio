@@ -16,6 +16,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import cppLogo from './assets/tech_logo/cpp.svg';
 
 // Experience Section Logo's
 
@@ -45,25 +46,18 @@ import developersHubLogo from './assets/company_logo/company.jpeg';
 export const SkillsInfo = [
   {
     title: 'Frontend',
-    skills: [
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'GSAP', logo: gsapLogo },
-    ],
+    skills: [],
   },
   {
     title: 'Backend',
-    skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
-    ],
+    skills: [],
   },
   {
     title: 'Languages',
     skills: [
       { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
+      { name: 'C++', logo: cppLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
   },
