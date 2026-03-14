@@ -235,6 +235,15 @@ export const SkillsInfo = [
       credentialId: "snJLeZL8R5jyFNKBY",
       desc: "Completed the Mastercard Cybersecurity Virtual Experience Program on Forage, where I worked through practical cybersecurity tasks including threat identification, security awareness, and incident response activities in a simulated business environment.",
     },
+    {
+      id: 3,
+      img: forageCertLogo,
+      title: "Cybersecurity Analyst Job Simulation",
+      organization: "Forage",
+      date: "March 2026",
+      credentialId: "FORAGE-CYBER-2026",
+      desc: "Completed a cybersecurity analyst job simulation on Forage focused on SOC workflows, alert triage, incident documentation, and practical response planning in a real-world style environment.",
+    },
   ];  
 
   
