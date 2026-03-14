@@ -20,6 +20,7 @@ import cppLogo from './assets/tech_logo/cpp.svg';
 import bashLogo from './assets/tech_logo/bash.svg';
 import wiresharkLogo from './assets/tech_logo/wireshark.svg';
 import splunkLogo from './assets/tech_logo/splunk.svg';
+import wazuhLogo from './assets/tech_logo/wazuh.jpeg';
 
 // Experience Section Logo's
 
@@ -65,6 +66,7 @@ export const SkillsInfo = [
       { name: 'Bash', logo: bashLogo },
       { name: 'Wireshark', logo: wiresharkLogo },
       { name: 'Splunk', logo: splunkLogo },
+      { name: 'Wazuh', logo: wazuhLogo },
     ],
   },
 ];
