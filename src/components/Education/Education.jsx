@@ -43,6 +43,8 @@ const Education = () => {
                     <img
                       src={edu.img}
                       alt={edu.school}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-contain"
                     />
                   </div>

@@ -42,6 +42,8 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-48 object-cover rounded-xl"
               />
             </div>
@@ -85,6 +87,8 @@ const Work = () => {
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
+                  loading="eager"
+                  decoding="async"
                   className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
                 />
               </div>

@@ -43,6 +43,8 @@ const Certifications = () => {
                     <img
                       src={cert.img}
                       alt={cert.organization}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-contain"
                     />
                   </div>

@@ -43,6 +43,8 @@ const Experience = () => {
                   <img
                     src={experience.img}
                     alt={experience.company}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                 </div>
