@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import profileImage from '/src/assets/profileImage.png';
 
 const TITLES = [

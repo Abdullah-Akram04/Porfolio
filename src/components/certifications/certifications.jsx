@@ -1,4 +1,3 @@
-import React from "react";
 import { certifications } from "../../constants"; // Import the certifications data
 
 const Certifications = () => {
