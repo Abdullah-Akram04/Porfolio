@@ -1,8 +1,49 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import profileImage from '/src/assets/profileImage.png';
 
+const TITLES = [
+  'Cybersecurity Enthusiast',
+  'SOC Analyst',
+  'GRC Specialist',
+  'Network Security Analyst',
+];
+
 const About = () => {
+  const [titleIndex, setTitleIndex] = useState(0);
+  const [displayText, setDisplayText] = useState('');
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentTitle = TITLES[titleIndex];
+    const typingSpeed = isDeleting ? 45 : 85;
+    const holdAtEnd = 1200;
+    const holdBeforeNext = 260;
+
+    let timer;
+
+    if (!isDeleting && displayText === currentTitle) {
+      timer = window.setTimeout(() => {
+        setIsDeleting(true);
+      }, holdAtEnd);
+    } else if (isDeleting && displayText === '') {
+      timer = window.setTimeout(() => {
+        setIsDeleting(false);
+        setTitleIndex((prev) => (prev + 1) % TITLES.length);
+      }, holdBeforeNext);
+    } else {
+      timer = window.setTimeout(() => {
+        const nextText = isDeleting
+          ? currentTitle.slice(0, displayText.length - 1)
+          : currentTitle.slice(0, displayText.length + 1);
+
+        setDisplayText(nextText);
+      }, typingSpeed);
+    }
+
+    return () => window.clearTimeout(timer);
+  }, [displayText, isDeleting, titleIndex]);
+
   return (
     <section
       id="about"
@@ -20,9 +61,12 @@ const About = () => {
             Abdullah Akram
           </h2>
           {/* Skills Heading with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 leading-tight">
             <span className="text-white">I am a </span>
-            <span>Cybersecurity Enthusiast</span>
+            <span className="inline-flex items-center gap-1 align-middle">
+              <span className="inline-block animate-title-cyber">{displayText}</span>
+              <span aria-hidden="true" className="title-cursor" />
+            </span>
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
