@@ -185,19 +185,6 @@ html {
     0 0 48px rgba(130, 69, 236, 0.18);
 }
 
-.custom-cursor-ring.custom-cursor-title {
-  width: 42px;
-  height: 42px;
-  border: none;
-  border-radius: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(210, 184, 255, 0.96) 35%, rgba(168, 85, 247, 0.92) 100%);
-  clip-path: polygon(0 44%, 46% 44%, 46% 24%, 100% 50%, 46% 76%, 46% 56%, 0 56%, 0 44%);
-  box-shadow:
-    0 0 18px rgba(255, 255, 255, 0.22),
-    0 0 34px rgba(168, 85, 247, 0.36);
-  backdrop-filter: none;
-}
-
 .custom-cursor-dot.custom-cursor-interactive {
   width: 10px;
   height: 10px;
@@ -205,10 +192,6 @@ html {
   box-shadow:
     0 0 14px rgba(255, 255, 255, 0.7),
     0 0 26px rgba(168, 85, 247, 0.44);
-}
-
-.custom-cursor-dot.custom-cursor-title {
-  opacity: 0;
 }
 
 @media (pointer: coarse), (max-width: 768px) {

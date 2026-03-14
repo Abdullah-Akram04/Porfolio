@@ -10,14 +10,6 @@ const INTERACTIVE_SELECTOR = [
   '[data-cursor="interactive"]',
 ].join(', ');
 
-const TITLE_SELECTOR = [
-  'h1',
-  'h2',
-  'h3',
-  'h4',
-  '[data-cursor="title"]',
-].join(', ');
-
 const AnimatedCursor = () => {
   const dotRef = useRef(null);
   const ringRef = useRef(null);
@@ -26,7 +18,6 @@ const AnimatedCursor = () => {
   const ringRefPosition = useRef({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
   const [isInteractive, setIsInteractive] = useState(false);
-  const [isTitle, setIsTitle] = useState(false);
   const [isEnabled, setIsEnabled] = useState(false);
 
   useEffect(() => {
@@ -69,17 +60,10 @@ const AnimatedCursor = () => {
     };
 
     const updateCursorState = (event) => {
-      if (!(event.target instanceof Element)) {
-        setIsInteractive(false);
-        setIsTitle(false);
-        return;
-      }
-
-      const titleElement = event.target.closest(TITLE_SELECTOR);
-      const interactiveElement = event.target.closest(INTERACTIVE_SELECTOR);
-
-      setIsTitle(Boolean(titleElement));
-      setIsInteractive(Boolean(interactiveElement) && !titleElement);
+      const interactiveElement = event.target instanceof Element
+        ? event.target.closest(INTERACTIVE_SELECTOR)
+        : null;
+      setIsInteractive(Boolean(interactiveElement));
     };
 
     const hideCursor = () => setIsVisible(false);
@@ -131,11 +115,11 @@ const AnimatedCursor = () => {
     <>
       <div
         ref={ringRef}
-        className={`custom-cursor-ring ${isVisible ? 'custom-cursor-visible' : ''} ${isInteractive ? 'custom-cursor-interactive' : ''} ${isTitle ? 'custom-cursor-title' : ''}`}
+        className={`custom-cursor-ring ${isVisible ? 'custom-cursor-visible' : ''} ${isInteractive ? 'custom-cursor-interactive' : ''}`}
       />
       <div
         ref={dotRef}
-        className={`custom-cursor-dot ${isVisible ? 'custom-cursor-visible' : ''} ${isInteractive ? 'custom-cursor-interactive' : ''} ${isTitle ? 'custom-cursor-title' : ''}`}
+        className={`custom-cursor-dot ${isVisible ? 'custom-cursor-visible' : ''} ${isInteractive ? 'custom-cursor-interactive' : ''}`}
       />
     </>
   );
