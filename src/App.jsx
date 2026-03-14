@@ -11,14 +11,11 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
 import AnimatedBackground from './components/AnimatedBackground';
-import AnimatedCursor from './components/AnimatedCursor';
 
 // Main Application Component
 const App = () => {
   return (
     <div className="bg-[#050414]">
-      <AnimatedCursor />
-
       {/* Animated bubbles + smoke — sits behind all content */}
       <AnimatedBackground />
 
