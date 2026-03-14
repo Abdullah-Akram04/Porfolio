@@ -238,10 +238,10 @@ export const SkillsInfo = [
     {
       id: 3,
       img: forageCertLogo,
-      title: "Cybersecurity Analyst Job Simulation",
+      title: "Datacom - Cyber Security Operations Job Simulation",
       organization: "Forage",
       date: "March 2026",
-      credentialId: "FORAGE-CYBER-2026",
+      credentialId: "LM4gg6tZNmcBkniNN",
       desc: "Completed a cybersecurity analyst job simulation on Forage focused on SOC workflows, alert triage, incident documentation, and practical response planning in a real-world style environment.",
     },
   ];  
