@@ -238,7 +238,7 @@ export const SkillsInfo = [
     {
       id: 4,
       img: forageCertLogo,
-      title: "AIG Shields Up: Cybersecurity Job Simulation",
+      title: "Tata Cybersecurity Security Analyst Job Simulation",
       organization: "Forage",
       date: "March 2026",
       credentialId: "5yXx7M2kQw9LpR3ZT",
