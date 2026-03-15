@@ -137,16 +137,6 @@ export const SkillsInfo = [
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 3,
-      title: "",
-      description:
-        "An efficient and NPM package for validating email addresses. Built using React.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
       id: 4,
       title: "",
       description:
