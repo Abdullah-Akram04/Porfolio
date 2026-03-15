@@ -235,6 +235,15 @@ export const SkillsInfo = [
       credentialId: "LM4gg6tZNmcBkniNN",
       desc: "Completed the Datacom Cyber Security Operations Job Simulation on Forage, where I gained hands-on experience in cybersecurity operations, including monitoring security events, analyzing threats, and responding to incidents in a simulated enterprise environment.",
     },
+    {
+      id: 4,
+      img: forageCertLogo,
+      title: "AIG Shields Up: Cybersecurity Job Simulation",
+      organization: "Forage",
+      date: "March 2026",
+      credentialId: "5yXx7M2kQw9LpR3ZT",
+      desc: "Completed the AIG Shields Up Cybersecurity Job Simulation on Forage, where I practiced identifying web vulnerabilities, documenting remediation actions, and communicating incident findings in a professional security operations workflow.",
+    },
   ];  
 
   
