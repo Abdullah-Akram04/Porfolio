@@ -242,7 +242,7 @@ export const SkillsInfo = [
       organization: "Forage",
       date: "March 2026",
       credentialId: " sbK9h5AnsxAaTtakP",
-      desc: "Completed the AIG Shields Up Cybersecurity Job Simulation on Forage, where I practiced identifying web vulnerabilities, documenting remediation actions, and communicating incident findings in a professional security operations workflow.",
+      desc: "Completed the Tata Cybersecurity Security Analyst Job Simulation on Forage, where I developed practical skills in cybersecurity analysis, including threat detection, vulnerability assessment, and incident response in a simulated corporate environment.",
     },
   ];  
 
