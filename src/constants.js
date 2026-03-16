@@ -140,7 +140,7 @@ export const SkillsInfo = [
       id: 6,
       title: "",
       description:
-        "An ed- platform where users access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+        "An ed-  where users access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
       tags: ["React JS", "Payment Integration"],
       github: "https://codingmasterweb.in/",
