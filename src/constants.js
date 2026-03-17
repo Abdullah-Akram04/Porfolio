@@ -20,8 +20,8 @@ import punjabCollegeLogo from './assets/education_logo/punjab.png';
 
 // Project Section Logo's
 // Fallback image is used because work_logo assets are currently missing.
-import cmLogo from './assets/profileImage.png';
-import webverLogo from './assets/profileImage.png';
+import cmLogo from './assets/work_logo/Analyst.png';
+import webverLogo from './assets/work_logo/IAM.png';
 import removebgLogo from './assets/profileImage.png';
 
 // Certifications Section Logo's
