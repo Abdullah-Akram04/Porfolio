@@ -106,7 +106,8 @@ export const SkillsInfo = [
       title: "Cybersecurity Operations",
       description:
         "Investigated a cyberattack, conducted comprehensive risk assessments, and produced a detailed report with actionable recommendations to strengthen Datacom’s cybersecurity operations. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
-      tags: ["RISK ASSESSMENT", "RESEARCH"],
+      image: cmLogo,
+      tags: ["RISK ASSESSMENT", "RESEARCH","INFORMATION SECURITY"],
       github: "https://codingmasterweb.in/",
 
     },
