@@ -113,9 +113,9 @@ export const SkillsInfo = [
     },
     {
       id: 7,
-      title: "",
+      title: "Cybersecurity Analyst",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+        "Worked on enhancing Identity and Access Management (IAM) strategies by analyzing security requirements and designing effective access control solutions. Developed detailed documentation and presented structured approaches to align cybersecurity practices with business objectives while addressing real-world security challenges.",
       image: webverLogo,
       tags: ["React JS", "Search Feature", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
