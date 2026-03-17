@@ -20,7 +20,7 @@ import punjabCollegeLogo from './assets/education_logo/punjab.png';
 
 // Project Section Logo's
 import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
+import webverLogo from './assets/work_logo/web_dig.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
 // Certifications Section Logo's
@@ -115,7 +115,7 @@ export const SkillsInfo = [
       title: "",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
+      image: webverLogo,
       tags: ["React JS", "Search Feature", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",
