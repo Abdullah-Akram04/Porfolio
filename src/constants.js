@@ -22,7 +22,7 @@ import punjabCollegeLogo from './assets/education_logo/punjab.png';
 // Fallback image is used because work_logo assets are currently missing.
 import cmLogo from './assets/work_logo/Analyst.png';
 import webverLogo from './assets/work_logo/IAM.png';
-import removebgLogo from './assets/profileImage.png';
+import removebgLogo from './assets/work_logo/phishing.png';
 
 // Certifications Section Logo's
 import googleCertLogo from './assets/certifications_logo/Google.webp';
