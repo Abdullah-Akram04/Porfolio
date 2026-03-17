@@ -102,14 +102,13 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 6,
-      title: "",
+      id: 0,
+      title: "Cybersecurity Operations",
       description:
-        "An educational  where users can tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
+        "Investigated a cyberattack, conducted comprehensive risk assessments, and produced a detailed report with actionable recommendations to strengthen Datacom’s cybersecurity operations. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
       tags: ["React JS", "Payment Integration"],
       github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+
     },
     {
       id: 7,
