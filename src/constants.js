@@ -118,8 +118,8 @@ export const SkillsInfo = [
         "Worked on enhancing Identity and Access Management (IAM) strategies by analyzing security requirements and designing effective access control solutions. Developed detailed documentation and presented structured approaches to align cybersecurity practices with business objectives while addressing real-world security challenges.",
       image: webverLogo,
       tags: ["React JS", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+      github: "https://github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Designing%20IAM%20solution%20for%20Tech's%20corp",
+      
     },
     {
       id: 8,
