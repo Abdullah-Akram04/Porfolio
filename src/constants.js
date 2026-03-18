@@ -118,7 +118,7 @@ export const SkillsInfo = [
         "Worked on enhancing Identity and Access Management (IAM) strategies by analyzing security requirements and designing effective access control solutions. Developed detailed documentation and presented structured approaches to align cybersecurity practices with business objectives while addressing real-world security challenges.",
       image: webverLogo,
       tags: ["IAM", "ACCESS CONTROL", "IDENTITY MANAGEMENT ASSESSMENT", "PROJECT PLANNING"],
-      github: "https://github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Designing%20IAM%20solution%20for%20Tech's%20corp",
+      github: "https: //github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Designing%20IAM%20solution%20for%20Tech's%20corp",
       
     },
     {
@@ -127,7 +127,7 @@ export const SkillsInfo = [
       description:
         "Investigated a phishing attack, conducted a comprehensive threat analysis, and developed a detailed mitigation strategy to enhance the organization's cybersecurity posture. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
       image: removebgLogo,
-      tags: ["DATA ANALYSIS","DATA VISUALIZATION","SECURITY AWARENESS","PROBLEM SOLVING","DESIGN THINKING",],
+      tags: ["DATA ANALYSIS", "DATA VISUALIZATION", "SECURITY AWARENESS", "PROBLEM SOLVING", "DESIGN THINKING",],
       github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
     },
