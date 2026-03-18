@@ -115,7 +115,7 @@ export const SkillsInfo = [
       id: 7,
       title: "Cybersecurity Analyst",
       description:
-        "Enhanced IAM strategies by analyzing security requirements and designing access control solutions. Created documentation and presented structured approaches to align cybersecurity practices with business objectives.",
+        "Enhanced IAM strategies by designing access controls and aligning cybersecurity practices with business objectives through documentation and structured approaches.",
       image: webverLogo,
       tags: ["IAM", "ACCESS CONTROL", "IDENTITY MANAGEMENT ASSESSMENT", "PROJECT PLANNING"],
       github: "https: //github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Designing%20IAM%20solution%20for%20Tech's%20corp",
