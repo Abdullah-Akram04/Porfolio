@@ -125,7 +125,7 @@ export const SkillsInfo = [
       id: 8,
       title: "Threat Analysis and Mitigation",
       description:
-        "",
+        "Investigated a phishing attack, conducted a comprehensive threat analysis, and developed a detailed mitigation strategy to enhance the organization's cybersecurity posture. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Background-Remover",
