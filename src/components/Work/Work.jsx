@@ -71,12 +71,13 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex justify-end p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 sm:p-6">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[95%] max-w-3xl max-h-[90vh] overflow-y-auto relative">
+            <div className="sticky top-0 z-10 flex justify-end p-4 bg-gray-900/95 backdrop-blur-sm">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                aria-label="Close project dialog"
+                className="text-white text-3xl font-bold leading-none hover:text-purple-500"
               >
                 &times;
               </button>
@@ -89,7 +90,7 @@ const Work = () => {
                   alt={selectedProject.title}
                   loading="eager"
                   decoding="async"
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  className="lg:w-full w-[95%] max-h-[36vh] object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
@@ -109,23 +110,29 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
+                  {selectedProject.webapp ? (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      View Live
+                    </a>
+                  ) : (
+                    <span className="bg-purple-600/40 text-white/70 lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center cursor-not-allowed">
+                      View Live
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
