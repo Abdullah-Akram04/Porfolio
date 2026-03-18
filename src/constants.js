@@ -123,7 +123,7 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "",
+      title: "Threat Analysis and Mitigation",
       description:
         "An efficient background  app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
       image: removebgLogo,
