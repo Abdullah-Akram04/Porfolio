@@ -105,7 +105,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Cybersecurity Operations",
       description:
-        "Investigated a cyberattack, conducted comprehensive risk assessments, and produced a detailed report with actionable recommendations to strengthen Datacom’s cybersecurity operations. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
+        "Investigated a cyberattack and conducted risk assessments, producing actionable recommendations to strengthen Datacom’s cybersecurity. Applied analytical thinking and security-focused approaches to address complex challenges.",
       image: cmLogo,
       tags: ["RISK ASSESSMENT", "RESEARCH","INFORMATION SECURITY","PROBLEM SOLVING"],
       github: "https://github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Datacom%20data%20breaches",
