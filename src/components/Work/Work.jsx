@@ -110,29 +110,15 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="grid grid-cols-2 gap-4">
+                <div>
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="block w-full bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
-                  {selectedProject.webapp ? (
-                    <a
-                      href={selectedProject.webapp}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                    >
-                      View Live
-                    </a>
-                  ) : (
-                    <span className="bg-purple-600/40 text-white/70 lg:px-6 lg:py-2 px-2 py-2 rounded-xl lg:text-xl text-sm font-semibold text-center cursor-not-allowed">
-                      View Live
-                    </span>
-                  )}
                 </div>
               </div>
             </div>
