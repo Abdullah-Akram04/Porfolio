@@ -128,8 +128,8 @@ export const SkillsInfo = [
         "Investigated a phishing attack, conducted a comprehensive threat analysis, and developed a detailed mitigation strategy to enhance the organization's cybersecurity posture. Applied analytical thinking, research, and security-focused approaches to address complex cybersecurity challenges.",
       image: removebgLogo,
       tags: ["DATA ANALYSIS", "DATA VISUALIZATION", "SECURITY AWARENESS",],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+      github: "https://github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Phishing%20email%20detection%20",
+
     },
   ];
 
