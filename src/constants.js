@@ -125,7 +125,7 @@ export const SkillsInfo = [
       id: 8,
       title: "Threat Analysis and Mitigation",
       description:
-        "An efficient background  app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+        "",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Background-Remover",
