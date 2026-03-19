@@ -72,6 +72,11 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
           <input
+            type="hidden"
+            name="to_email"
+            value="ch.abdullahakram004@gmail.com"
+          />
+          <input
             type="email"
             name="user_email"
             placeholder="Your Email"
