@@ -127,7 +127,7 @@ export const SkillsInfo = [
       description:
         "Investigated a phishing attack and conducted a comprehensive threat analysis, developing a mitigation strategy to strengthen cybersecurity. Applied analytical thinking and security-focused approaches to address complex challenges.",
       image: removebgLogo,
-      tags: ["DATA ANALYSIS", "DATA VISUALIZATION", "SECURITY AWARENESS",],
+      tags: ["DATA ANALYSIS", "DATA VISUALIZATION", "SECURITY AWARENESS","THREAT MITIGATION"],
       github: "https://github.com/Abdullah-Akram04/Cybersecurity-projects/tree/main/Phishing%20email%20detection%20",
 
     },
