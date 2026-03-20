@@ -113,7 +113,7 @@ export const SkillsInfo = [
     },
     {
       id: 7,
-      title: "Cybersecurity Analyst",
+      title: "Cybersecurit Analyst",
       description:
         "Enhanced IAM strategies by analyzing security requirements and designing access control solutions. Created documentation and presented structured approaches to align cybersecurity practices with business objectives.",
       image: webverLogo,
