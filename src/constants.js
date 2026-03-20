@@ -123,7 +123,7 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Threat Analysis and Mitigation",
+      title: "Threa Analysis and Mitigation",
       description:
         "Investigated a phishing attack and conducted a comprehensive threat analysis, developing a mitigation strategy to strengthen cybersecurity. Applied analytical thinking and security-focused approaches to address complex challenges.",
       image: removebgLogo,
