@@ -146,7 +146,7 @@ export const SkillsInfo = [
     {
       id: 1,
       img: iscCertLogo,
-      title: "ISC Certified in Cybersecurity (CC)",
+      title: "ISC2 Certified in Cybersecurity (CC)",
       organization: "ISC2",
       date: "Feb 2026",
       credentialId: "ad31edc6-0616-43fe-8784-bad65563ebf6",
