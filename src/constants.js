@@ -137,7 +137,7 @@ export const SkillsInfo = [
     {
       id: 0,
       img: googleCertLogo,
-      title: "Google cybersecurity professional certificate",
+      title: "Google cybersecurity professional certificat",
       organization: "Google",
       date: "March 2026",
       credentialId: "M9PA86HW7V5K",
