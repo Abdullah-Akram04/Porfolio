@@ -175,7 +175,7 @@ export const SkillsInfo = [
       img: forageCertLogo,
       title: "Tata Cybersecurity Security Analyst Job Simulation",
       organization: "Forage",
-      date: "March 2026",
+      date: "March 202",
       credentialId: " sbK9h5AnsxAaTtakP",
       desc: "Completed the Tata Cybersecurity Security Analyst Job Simulation on Forage, where I developed practical skills in cybersecurity analysis, including threat detection, vulnerability assessment, and incident response in a simulated corporate environment.",
     },
