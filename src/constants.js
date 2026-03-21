@@ -165,7 +165,7 @@ export const SkillsInfo = [
       id: 3,
       img: forageCertLogo,
       title: "Datacom - Cyber Security Operations Job Simulation",
-      organization: "Forag",
+      organization: "Forage",
       date: "March 2026",
       credentialId: "LM4gg6tZNmcBkniNN",
       desc: "Completed the Datacom Cyber Security Operations Job Simulation on Forage, where I gained hands-on experience in cybersecurity operations, including monitoring security events, analyzing threats, and responding to incidents in a simulated enterprise environment.",
