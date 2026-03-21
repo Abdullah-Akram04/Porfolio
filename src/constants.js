@@ -141,7 +141,7 @@ export const SkillsInfo = [
       organization: "Google",
       date: "March 2026",
       credentialId: "M9PA86HW7V5K",
-      desc: "Completed a comprehensive cybersecurit professional certificate course covering network security, threat analysis, and incident response. Gained practical skills in securing systems and protecting against cyber threats, demonstrating a strong commitment to cybersecurity best practices.",
+      desc: "Completed a comprehensive cybersecurity professional certificate course covering network security, threat analysis, and incident response. Gained practical skills in securing systems and protecting against cyber threats, demonstrating a strong commitment to cybersecurity best practices.",
     },
     {
       id: 1,
