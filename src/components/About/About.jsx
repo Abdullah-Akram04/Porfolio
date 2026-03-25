@@ -60,7 +60,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Abdullah Akram
           </h2>
-          {/* Skills Heading with Typing Effect */}
+          {/* Skills Heading */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 leading-tight">
             <span className="text-white">I am a </span>
             <span className="inline-flex items-center gap-1 align-middle">
