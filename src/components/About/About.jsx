@@ -68,7 +68,7 @@ const About = () => {
               <span aria-hidden="true" className="title-cursor" />
             </span>
           </h3>
-          {/* About Me Paragraph */}
+          {/* About Me section */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
 Computer Science undergraduate at COMSATS University Islamabad with a passion for securing digital infrastructure. I specialize in vulnerability assessment, network defense, and security operations — backed by industry-recognized certifications from Google and (ISC)².
           </p>
@@ -83,7 +83,7 @@ Computer Science undergraduate at COMSATS University Islamabad with a passion fo
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
           
         </div>
