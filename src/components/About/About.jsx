@@ -6,7 +6,7 @@ const TITLES = [
   'Cybersecurity Enthusiast',
   'SOC Analyst',
   'GRC Specialist',
-  'Network Security Analyst',
+  'Network',
 ];
 
 const About = () => {
