@@ -5,7 +5,7 @@ import profileImage from '/src/assets/profileImage.png';
 const TITLES = [
   'Cybersecurity Enthusiast',
   'SOC Analyst',
-  'GRC Specialis',
+  'GRC Specialist',
   'IAM Analyst',
 ];
 
